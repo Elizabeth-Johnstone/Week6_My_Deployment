@@ -1,0 +1,20 @@
+* {
+    color: #8ebd8a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+
+body {
+    background: #033a20;
+    }
+      
+header {
+    background: white;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+      }
