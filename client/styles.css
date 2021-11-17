@@ -1,20 +1,47 @@
 * {
-    color: #8ebd8a;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
+    font-family: 'Josefin Sans', sans-serif;
+}
     
 
 body {
     background: #033a20;
-    }
+}
       
 header {
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
+    color: #71a56d;
     height: 80px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-      }
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+#first-img {
+    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/various-beautiful-green-plants-in-pots-on-white-royalty-free-image-931824676-1565950537.jpg?crop=0.825xw:0.620xh;0.0785xw,0.132xh&resize=1200:*");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#second-img {
+    background: url("https://www.treehugger.com/thmb/_T4FzU8T4GXgcAYal51VO5whun0=/3300x2200/filters:fill(auto,1)/terracottaplantswhitewall-f6f84930c12643fea7a143b783449c9e.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: black
+}
+
+p {
+    background: rgba(255, 255, 255, 0.8);
+    width: 500px;
+    border-radius: 8px;
+}
